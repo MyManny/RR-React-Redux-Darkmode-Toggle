@@ -6,7 +6,7 @@ function Photo() {
 
     return (
         <div className="Photo">
-            <img src={mode.photo} alt="author" />
+            <img width="200" src={mode.photo} alt="author" />
         </div>
     )
 }
